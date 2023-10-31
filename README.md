@@ -1,4 +1,4 @@
-# Machine-Leaning
+# Machine-Learning
 This repo is a collection of all my personal Machine Learning Projects
 
 A Linear Regression model on the Diabetes Dataset within the sklean library
