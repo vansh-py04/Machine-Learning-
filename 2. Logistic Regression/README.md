@@ -6,6 +6,8 @@ The logistic regression model makes predictions using the logistic function (als
 
 \[ \sigma(z) = \frac{1}{1 + e^{-z}} \]
 
+![image](https://github.com/vansh-py04/Machine-Learning-Algorithms-from-Scratch/assets/128248352/860092a1-2632-491b-8c0b-2fc3e6810f19)
+
 Where:
 - \( \sigma(z) \) is the logistic function.
 - \( z \) is the linear combination of input features and their corresponding coefficients, often denoted as \( \mathbf{w}^T\mathbf{x} + b \), where \( \mathbf{w} \) represents the weight vector, \( \mathbf{x} \) represents the input features, and \( b \) is the bias term.
@@ -28,6 +30,8 @@ To train a logistic regression model, we need a suitable cost function to measur
 
 \[ J(\mathbf{w}, b) = -\frac{1}{m} \sum_{i=1}^{m} [y^{(i)} \log(\hat{y}^{(i)}) + (1 - y^{(i)}) \log(1 - \hat{y}^{(i)})] \]
 
+![image](https://github.com/vansh-py04/Machine-Learning-Algorithms-from-Scratch/assets/128248352/de5eb90b-4c69-48d9-83b8-e5f8c26640e4)
+
 Where:
 - \( m \) is the number of training examples.
 - \( y^{(i)} \) is the actual label (0 or 1) for the \( i \)-th training example.
@@ -39,6 +43,8 @@ The goal of training is to minimize the cross-entropy loss by adjusting the mode
 ### Gradient Descent:
 
 To minimize the cost function, gradient descent is typically used. The gradients of the cost function with respect to the model parameters are computed, and the parameters are updated iteratively in the opposite direction of the gradient until convergence.
+
+![image](https://github.com/vansh-py04/Machine-Learning-Algorithms-from-Scratch/assets/128248352/ec2e85fc-8a7c-4872-b4b2-51a0a6d72588)
 
 ### Visualization:
 
