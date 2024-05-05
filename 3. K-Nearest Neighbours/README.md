@@ -15,7 +15,7 @@ KNN is a simple yet powerful non-parametric classification algorithm. It classif
 - **K (Number of Neighbors)**:
    - The choice of K is a crucial hyperparameter in KNN. A smaller value of K makes the model sensitive to noise, while a larger value of K makes the decision boundary smoother but may lead to the inclusion of unrelated data points.
 
-![image](https://github.com/vansh-py04/Machine-Learning-Algorithms-from-Scratch/assets/128248352/f5458a27-6b9b-4367-89ee-b0b08a1ae7df)
+![image](https://github.com/vansh-py04/Machine-Learning-Algorithms-from-Scratch/assets/128248352/fec06fa9-35ab-4353-9b49-b1c8f08455dd)
 
 ### K-Nearest Neighbors (KNN) for Regression:
 
