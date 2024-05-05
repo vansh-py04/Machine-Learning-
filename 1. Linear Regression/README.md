@@ -20,12 +20,12 @@ The optimal values of \( m \) and \( b \) can be found using various optimizatio
 
 Multivariate linear regression extends the concept of univariate linear regression to multiple input features. In this case, we have \( n \) input features (predictor variables) and a single output/target variable. The relationship between the input features and the target variable is represented by the equation:
 
-\[ y = b_0 + b_1x_1 + b_2x_2 + \ldots + b_nx_n \]
+\[ y = b_0 + b_1x_1 + b_2x_2 + ...... + b_nx_n \]
 
 Where:
 - \( y \) is the target variable.
-- \( x_1, x_2, \ldots, x_n \) are the input features.
-- \( b_0, b_1, b_2, \ldots, b_n \) are the coefficients (slopes) corresponding to each input feature.
+- \( x_1, x_2, ...... x_n \) are the input features.
+- \( b_0, b_1, b_2, ....... b_n \) are the coefficients (slopes) corresponding to each input feature.
 - \( b_0 \) is the intercept.
 
 The objective of multivariate linear regression is to determine the values of the coefficients that minimize the difference between the predicted values of \( y \) and the actual values of \( y \), again typically measured using a loss function like MSE or MAE.
