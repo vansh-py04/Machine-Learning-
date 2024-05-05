@@ -42,6 +42,4 @@ To minimize the cost function, gradient descent is typically used. The gradients
 
 ### Visualization:
 
-Visualizing the decision boundary obtained from logistic regression on a scatter plot of the data points can help in understanding how the model separates the two classes. Additionally, plotting the cost function against the number of iterations during training can illustrate the convergence of the optimization algorithm.
-
-By including these explanations along with relevant mathematical formulations and visualizations in your GitHub repository, users can gain a better understanding of logistic regression and its practical implementation for binary classification tasks.
+![image](https://github.com/vansh-py04/Machine-Learning-Algorithms-from-Scratch/assets/128248352/f73700c7-ad71-44e3-803b-5b1119719224)
